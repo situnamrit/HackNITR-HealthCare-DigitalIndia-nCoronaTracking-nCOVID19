@@ -15,8 +15,3 @@ if __name__ == '__main__':
         ct.country_statistic,
         indent=4,
     ))
-    
-    print(json.dumps(
-        st.all_statistic,
-        indent=4,
-    ))
