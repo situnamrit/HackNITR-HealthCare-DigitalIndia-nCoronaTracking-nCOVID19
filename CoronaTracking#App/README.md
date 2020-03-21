@@ -1,5 +1,4 @@
-
-# flutter_httprequests to fetch json data
+# flutter_httprequests
 
 A new Flutter project.
 
