@@ -83,6 +83,12 @@ panicForm.addEventListener("submit", e => {
      	box.textContent = "These are very mild symptomps which may even be just cold or normal Flu. So have patience and faith, there's nothing to worry about.";
      }
 
+     else if (days == 5 && breathe && fever) 
+       {
+        box.textContent =
+            "Its Better to Visit a Medical Practicioner";
+       }
+
      else {
         box.textContent =
             "Um...somethings not right with us. Maybe you could give us call as soon as possible. 📞";
