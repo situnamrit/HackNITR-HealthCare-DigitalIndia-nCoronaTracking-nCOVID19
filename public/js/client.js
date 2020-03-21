@@ -31,7 +31,7 @@ form.addEventListener("submit", e => {
         .catch(error => {
             console.log("No address provided!");
         });
-});
+})
 
 const panicForm = document.querySelector("#panic-form");
 
@@ -49,7 +49,7 @@ panicForm.addEventListener("submit", e => {
     if (days <= 4) {
         if (cough || fever) {
             box.textContent =
-                "These are very mild symptomps which may even be just cold. So have patience and faith, there's nothing to worry. ✌";
+                "These are very mild symptomps which may even be just cold or normal Flu. So have patience and faith, there's nothing to worry about. ✌";
         } else if (tired) {
             box.textContent =
                 "It's been hell of a pandemic, maybe you just need to rest a little bit more. We're here for you ❤";
@@ -60,11 +60,11 @@ panicForm.addEventListener("submit", e => {
             box.textContent =
                 "Sorry, we gave our best, but still its hard saying your situation. Prefer to contact our specialists below. 😕";
         }
-    } else if (days > 4 && days <= 10) {
+    } else if (days ==4 && cough) {
         box.textContent =
-            "You shall prefer by a doctor or any medical practinioner immediately. 🏥😷🔜";
+            "You may not be properly taking rest and drink a lots of hot water Avoid cold items ";
     } else {
         box.textContent =
-            "Um...somethings not right with us. Maybe you could give us call. 📞";
+            "Um...somethings not right with us. Maybe you could give us call as soon as possible. 📞";
     }
 });
