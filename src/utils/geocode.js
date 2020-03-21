@@ -1,12 +1,9 @@
-// Configuration Files 
-// To be Setup for the environment Variables
 require("dotenv").config({ path: "../../.env" });
 
 const request = require("request");
 
 // We are now doing REVERSE GEOCODING
-// Geocode = for Latitude
-// Geocode = for Longitude
+
 const geocode = (longitude, latitude, callback) => {
     const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/${longitude},${latitude}.json?access_token=${process.env.MAPBOX_API_KEY}`;
 
