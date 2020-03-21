@@ -6,7 +6,7 @@ ROURKELA
 
 Team Members
 
-AMRIT SAHANI
-TULSI PRASAD 
-DEBASHIS MISHRA
-MEHUL PRADHAN
+Amrit Sahani
+Tulsi Prasad
+Debashis Mishra
+Mehul Pradhan
