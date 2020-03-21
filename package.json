@@ -4,7 +4,10 @@
   "description": "a one stop app to get all details regarding the world pandemics",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js",
+    "server": "live-server --open=\"public/\"",
+    "watch:sass": "node-sass public/sass/main.scss public/css/style.css -w",
+    "dev": "npm-run-all --parallel server watch:sass"
   },
   "keywords": [
     "covid-19"
