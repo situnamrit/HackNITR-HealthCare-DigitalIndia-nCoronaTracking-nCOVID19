@@ -1,6 +1,12 @@
 # HackNITR-HealthCare-DigitaLIndia-nCoronaTracking-nVirus
 Hackathon Project for NIT Rourkela.
 
+Link to the project - Our Project
+
+https://covid-health-app.herokuapp.com/#
+
+
+
 This is a 24 hour long hackathon organised by thr developers community club of the prestigious institute of NATIONAL INSTITUTE OF TECHNOLOGY,
 ROURKELA
 
