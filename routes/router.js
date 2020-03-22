@@ -1,5 +1,3 @@
-// Request - Application 
-// Require - Request
 const express = require("express");
 const moment = require("moment");
 const router = new express.Router();
