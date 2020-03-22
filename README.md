@@ -98,9 +98,9 @@ NovelCOVID API based on top of WorldMeter
 
 
 
+A pdf resource from John Hokins University speaks out of the following information
 
-
-In December, 2019, a local outbreak of
+"""In December, 2019, a local outbreak of
 pneumonia of initially unknown cause
 was detected in Wuhan (Hubei, China),
 and was quickly determined to be
@@ -178,11 +178,12 @@ regional and local health departments,
 For the interactive dashboard
 of global COVID-19 cases see
 
+So, the data set goes into csv values and gets managed by Department of Computer Science, JHU (https://www.jhu.edu/)
 CSSEGISandData/COVID-19
 Figure: Comparison of COVID-19 case reporting from different sources
 Daily cumulative case numbers (starting Jan 22, 2020) reported by the Johns Hopkins University Center for
 Systems Science and Engineering (CSSE), WHO situation reports, and the Chinese Center for Disease Control
-and Prevention (Chinese CDC) for within (A) and outside (B) mainland China.
+and Prevention (Chinese CDC) for within (A) and outside (B) mainland China."""
 
 
 
