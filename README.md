@@ -100,4 +100,91 @@ NovelCOVID API based on top of WorldMeter
 
 
 
+In December, 2019, a local outbreak of
+pneumonia of initially unknown cause
+was detected in Wuhan (Hubei, China),
+and was quickly determined to be
+caused by a novel coronavirus,1
+ namely
+severe acute respiratory syndrome
+coronavirus 2 (SARS-CoV-2). The
+outbreak has since spread to every
+province of mainland China as well as
+27 other countries and regions, with
+more than 70 000 confirmed cases as
+of Feb 17, 2020.2
+ In response to this
+ongoing public health emergency,
+we developed an online interactive
+dashboard, hosted by the Center for
+Systems Science and Engineering
+(CSSE) at Johns Hopkins University,
+Baltimore, MD, USA, to visualise and
+track reported cases of coronavirus
+disease 2019 (COVID-19) in real time.
+The dashboard, first shared publicly
+on Jan 22, illustrates the location and
+number of confirmed COVID-19 cases,
+deaths, and recoveries for all affected
+countries. It was developed to provide
+researchers, public health authorities,
+and the general public with a userfriendly tool to track the outbreak
+as it unfolds. All data collected and
+displayed are made freely available,
+initially through Google Sheets and
+now through a GitHub repository,
+along with the feature layers of the
+dashboard, which are now included in
+the Esri Living Atlas.
+The dashboard reports cases at the
+province level in China; at the city level
+in the USA, Australia, and Canada;
+and at the country level otherwise.
+During Jan 22–31, all data collection
+and processing were done manually,
+and updates were typically done twice
+a day, morning and night (US Eastern
+Time). As the outbreak evolved, the
+manual reporting process became
+unsustainable; therefore, on Feb 1,
+we adopted a semi-automated living
+data stream strategy. Our primary data
+source is DXY, an online platform run
+by members of the Chinese medical
+community, which aggregates local
+media and government reports to
+provide cumulative totals of COVID-19
+cases in near real time at the province
+level in China and at the country
+level otherwise. Every 15 min, the
+cumulative case counts are updated
+from DXY for all provinces in China
+and for other affected countries and
+regions. For countries and regions
+outside mainland China (including
+Hong Kong, Macau, and Taiwan), we
+found DXY cumulative case counts to
+frequently lag behind other sources;
+we therefore manually update these
+case numbers throughout the day
+when new cases are identified. To
+identify new cases, we monitor
+various Twitter feeds, online news
+services, and direct communication
+sent through the dashboard. Before
+manually updating the dashboard,
+we confirm the case numbers with
+regional and local health departments,
+For the interactive dashboard
+of global COVID-19 cases see
+
+CSSEGISandData/COVID-19
+Figure: Comparison of COVID-19 case reporting from different sources
+Daily cumulative case numbers (starting Jan 22, 2020) reported by the Johns Hopkins University Center for
+Systems Science and Engineering (CSSE), WHO situation reports, and the Chinese Center for Disease Control
+and Prevention (Chinese CDC) for within (A) and outside (B) mainland China.
+
+
+
+
 
